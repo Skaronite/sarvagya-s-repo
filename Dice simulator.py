@@ -1,5 +1,5 @@
 import random
-print("Thsi is Your own Dice Simulator")
+print("This is Your own Dice Simulator")
 x="y"
 while x=="y":
     number = random.randint(1,6)
