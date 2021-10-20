@@ -2,43 +2,43 @@ import random
 print("This is Your own Dice Simulator")
 x="y"
 while x=="y":
-    number = random.randint(1,6)
+    n = random.randint(1,6)
 
-    if number == 1:
+    if n == 1:
         print("-----------")
         print("|         |")
         print("|    0    |")
         print("|         |")
         print("-----------")
-    if number == 2:
+    if n == 2:
         print("-----------")
         print("|         |")
         print("| 0     0 |")
         print("|         |")
         print("-----------")
 
-    if number == 3:
+    if n == 3:
         print("-----------")
         print("|    0    |")
         print("|    0    |")
         print("|    0    |")
         print("-----------")
 
-    if number == 4:
+    if n == 4:
         print("-----------")
         print("| 0     0 |")
         print("|         |")
         print("| 0     0 |")
         print("-----------")
 
-    if number == 5:
+    if n == 5:
        print("-----------")
        print("| 0     0 |")
        print("|    0    |")
        print("| 0     0 |")
        print("-----------")
 
-    if number == 6:
+    if n == 6:
        print("-----------")
        print("| 0     0 |")
        print("| 0     0 |")
