@@ -21,7 +21,7 @@ def translate(word):
         else:
             return("You have entered wrong input please enter just y or n")
     else:
-        print("pugger your paw steps on wrong keys")
+        print("pugger your paw steps on not the right key")
 
 
 
